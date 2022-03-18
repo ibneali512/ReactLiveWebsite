@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: black; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-item{
+  padding:'20px';
+}
+
+* {
+  font-family: 'Mulish', sans-serif;
+  box-sizing: border-box;
+  /* background-color: black; */
+  /* color: black; */
+}
+.banner{
+  width:100%;
+  background:url('http://www.alstercloud.de/wp-content/uploads/2017/01/header.jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+  min-height:600px;
+  
+}
+.banner h3{
+  text-align:center;
+  padding-top: 243px;
+  color:#fff;
+  font-size:80px;
+  font-weight:700;
+  font-family: 'Josefin Sans', sans-serif;
+ }
+ .contact{
+   color:white;
+ }
+.banner p{
+  text-align:center;
+  color:#fff;
+  font-size:1.3em;
+  opacity:1;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.mynav{
+  padding: 20px;
+}
+
+.abt{
+  text-align:center;
+}
+.abt .jumbotron  {
+  background-color:#120A21;
+}
+.abt h3{
+  
+  color:white;
+  font-size:40px; 
+  padding-top: 53px;
+  
+}
+ hr{
+  width:100px;
+  border-width:3px;
+  
+}
+.abt p{
+  
+  color: rgba(255, 255, 255, 0.7);
+  font-size:20px;
+}
+.btn{
+  border:none;
+  border-radius:300px;
+  font-weight:bold;
+  text-transform:uppercase;
+  
+}
+.btn-default{
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: black;
+  background: white;
+}
+
+.no-padding{
+  padding:0;
+  margin-top: 45px;
+}
+.gt{
+  
+    padding: 16px;
+
+}
+
+.offcanvas-start {
+ 
+  width: 267px;
+  
+}
+/* .slanted{
+  background: #fff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: skew(0deg,-2deg) translateY(46px);
+} */
+.card {
+  width: 90%;
+}
+.jumbotron.mb-5 {
+  background-color:#120A21;
+}
+
+.jumbotron.p-1 {
+  background-color: #eee;
+}
+li.nav-item {
+ 
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+
+
+
+
+
+/* body {
+  background-color: #222;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+} */

@@ -17,10 +17,10 @@ return(
     <Navbar/>
   <Routes>
 
-  <Route exact path="/ReactLiveWebsite" element={<Home />} />
-  <Route path="/about" element={<About />} />
-  <Route path="/service" element={<Services />} />
-  <Route path="/contact" element={<Contact />} />
+  <Route exact path="/" element={<Home />} />
+  <Route exact path="/about" element={<About />} />
+  <Route exact path="/service" element={<Services />} />
+  <Route exact path="/contact" element={<Contact />} />
 </Routes>
   
   

@@ -17,7 +17,7 @@ return(
     <Navbar/>
   <Routes>
 
-  <Route path="/ReactLiveWebsite" element={<Home />} />
+  <Route exact path="/ReactLiveWebsite" element={<Home />} />
   <Route path="/about" element={<About />} />
   <Route path="/service" element={<Services />} />
   <Route path="/contact" element={<Contact />} />

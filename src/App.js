@@ -14,9 +14,10 @@ const App =()=>{
 return(
   <>
 
-  <Navbar/>
-  <Routes>
-  <Route path="/" element={<Home />} />
+
+  <Routes >
+  
+  <Route exact path="/" element={<Home />} />
   <Route path="/about" element={<About />} />
   <Route path="/service" element={<Services />} />
   <Route path="/contact" element={<Contact />} />

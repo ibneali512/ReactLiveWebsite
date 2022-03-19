@@ -15,7 +15,7 @@ return(
   <>
 
   <Routes>
-
+  <Navbar/>
   <Route exact path="/" element={<Home />} />
   <Route  path="/about" element={<About />} />
   <Route  path="/service" element={<Services />} />
